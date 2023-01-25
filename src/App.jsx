@@ -52,14 +52,23 @@ const App = () => {
 
 					<a href='https://twitter.com/intent/tweet' target='_blank' rel='noreferrer'>
 							<FontAwesomeIcon icon={faTwitter} color='white' />
-					</a>
+							</a>
+					
 
 					<button onClick={copy_quote}>
 						<FontAwesomeIcon icon={faCopy} color='white' />
 					</button>
 				</div>
-
 			</div>
+			<div className='contributers'>Contributers:</div>
+			<ul>
+				<a href="https://github.com/kamiri-charles"> <img href="https://github.com/kamiri-charles" src="https://avatars.githubusercontent.com/u/78848071?v=4" className="contributerAvatars"></img></a>
+				<a href="https://github.com/sgtwilko"> <img href="https://github.com/sgtwilko" src="https://avatars.githubusercontent.com/u/658876?v=4" className="contributerAvatars"></img></a>
+				<a href="https://github.com/aryan1306"> <img href="https://github.com/aryan1306" src="https://avatars.githubusercontent.com/u/60398102?v=4" className="contributerAvatars"></img></a>
+				<a href="https://github.com/JosielMatos"> <img href="https://github.com/JosielMatos" src="https://avatars.githubusercontent.com/u/66519559?v=4" className="contributerAvatars"></img></a>
+				<a href="https://github.com/DimensionalDragon"> <img href="https://github.com/DimensionalDragon" src="https://avatars.githubusercontent.com/u/79691052?v=4" className="contributerAvatars"></img></a>
+				<a href="https://github.com/mishhuang"> <img href="https://github.com/mishhuang" src="https://avatars.githubusercontent.com/u/111394557?v=4" className="contributerAvatars"></img></a>
+			</ul>
 		</div>
 		);
 	};
